@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+* {
+  padding: 0px;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body h1,
+body h2 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+body header {
+  padding: 12px;
+}
+
+body main {
+  text-align: center;
+  color: #1d1d1d;
+}
+
+body main img {
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+
+body section {
+  padding: 12px;
+}
+
+body article {
+  padding: 12px;
+}
+
+body form {
+  text-align: center;
+  background: #1e130c;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#1e130c), to(#9a8478));
+  background: linear-gradient(to right, #1e130c, #9a8478);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  border: 1px solid #0f0f0f;
+}
+
+body form input {
+  background-color: #fbfbfb;
+  border-radius: 13px;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body footer {
+  color: #fff;
+  background: #1e130c;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#1e130c), to(#9a8478));
+  background: linear-gradient(to right, #1e130c, #9a8478);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+}
+
+body footer i:hover {
+  color: #0157f6;
+}
+
+body nav {
+  background-color: #010101;
+  color: #fff;
+  padding: 13px;
+  word-spacing: 1pt;
+}
+
+body nav a {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-align: left;
+}
+
+body nav a:hover {
+  color: #0157f6;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-box-shadow: 1px 1px 1px 3px #0157f6;
+          box-shadow: 1px 1px 1px 3px #0157f6;
+}
+
+body .more {
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 50% 50%;
+      grid-template-rows: 50% 50%;
+  gap: 1px;
+  border: 1px solid #000000;
+}
+
+body .more div {
+  border: 1px solid #000000;
+  background-color: #fbfbfb;
+  padding: 12px;
+}
+
+body textarea {
+  min-width: 100px;
+  max-width: 150px;
+  min-height: 100px;
+  max-height: 150px;
+}
+/*# sourceMappingURL=style.css.map */
